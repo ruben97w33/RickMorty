@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(36, 40, 47);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.nav-bar {
+    position: fixed;
+    padding-left: 0;
+    margin-top: -9.375rem;
+    display: flex;
+    font-size: 1.5rem;
+    background: linear-gradient(to bottom, rgb(133, 131, 131), rgb(202, 199, 199));
+    height: 9.375rem;
+    z-index: 100;
+    width: 100%;
+}
+
+.cartel {
+    font-size: 60px;
+    position: absolute;
+    color: rgb(36, 40, 47);
+    margin-top: 2.375rem;
+    margin-left: 30%;
+    z-index: 200;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-logo {
+    display: inline-flex;
+    flex-grow: 2;
+}
+
+.logo img {
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.logg {
+    flex-grow: 6;
+}
+
+.nav-item {
+    margin: 1.5rem;
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.container-character {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 9.375rem;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.personaje {
+    padding-right: 10px;
+    display: flex;
+    color: whitesmoke;
+    border-radius: 25px;
+    background-image: url(../imagenes/fondoInfo.jpeg);
+    margin: 0.625rem 0.625rem 1.875rem 0.625rem;
+    transition: transform .1s ease;
+    min-width: 460px;
+    width: 540px;
+}
+
+img {
+    border-radius: 25px;
+    padding: 0.625rem;
+    width: 12.5rem;
+    height: 12.5rem;
+    transition: transform .1s ease-in;
+}
+
+.nombre {
+    font-size: 1.875rem;
+    color: white;
+    text-decoration: none;
+    transition: color .1s ease-in;
+}
+
+.nombre:hover {
+    color: rgb(230, 151, 4);
+}
+
+.info {
+    padding-top: 1.516rem;
+}
+
+img:hover {
+    transform: scale(1.02, 1.02);
+}
+
+.personaje:hover {
+    transform: scale(1.02, 1.02);
+}
